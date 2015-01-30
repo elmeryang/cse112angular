@@ -32,7 +32,7 @@
             <p>{{phone.snippet}}</p>
           </li>
         </ul>
-
+	<pre>{{phones | filter:query | orderBy:orderProp | json}}</pre>
       </div>
     </div>
   </div>

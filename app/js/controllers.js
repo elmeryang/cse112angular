@@ -10,4 +10,5 @@ phonecatApp.controller('PhoneListCtrl', ['$scope', '$http', function($scope, $ht
   });
 
   $scope.orderProp = 'age';
+  $scope.phones = data.splice(0, 5);
 }]);
